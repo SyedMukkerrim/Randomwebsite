@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#brand" class="w3-button w3-bar-item">Brand</a>
+  <a href="#prices" class="w3-button w3-bar-item">Prices</a>
+  <a href="#category" class="w3-button w3-bar-item">Category</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://1.bp.blogspot.com/_jXWgNx2HcLw/TDpIEiu6F5I/AAAAAAAACno/h01W73HFGiU/s1600/Anna+Jagodzinska+%26+David+Gandy+for+Dolce+%26+Gabbana+Light+Blue+Campaign+01.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://lh3.googleusercontent.com/proxy/7iMR5DWeGkz0_6TodOSHAo6t4whVEhPDAzztSbLPMzndCNRES8F0AoVP4JfHbWFo7-ua_c8QZlebzefsVh_SkGmLBFpu60XbIvhJjwBoCXDTK58DFZ2NuuQ2_N1eW1eogYxTCuJH3FjY50t4nvMK3W82qp9LKM_Xh40AOr6tLA"
+  style="width:100%">
+  <img class="mySlides" src="https://i.ytimg.com/vi/mqeG6JBVz9c/maxresdefault.jpg"
+  style="width:100%">
+</section>
+</section>
+
+<!-- Perfume Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">House Of Cologne</h2>
+  <p class="w3-opacity"><i>We love to smell good </i></p>
+  <p class="w3-justify">I have created a perfume website .</p>
+</section>
+
+<!-- Perfume Strength -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>Parfum</p>
+    <img src="https://slimages.macysassets.com/is/image/MCY/products/6/optimized/14360826_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" style="width:100%">
+    <p>Parfum is the strongest.</p>
+  </article>
+  <article class="w3-third">
+    <p>Eau De Parfum</p>
+    <img src="https://www.chanel.com/images///w_0.51,h_0.51,c_crop/q_auto,f_jpg,fl_lossy,dpr_2/w_1920/n-19-eau-de-parfum-spray-3-4fl-oz--packshot-default-119530-8824199053342.jpg" style="width:100%">
+    <p>Eau De Parfum is the bestest.</p>
+  </article>
+  <article class="w3-third">
+    <p>Eau De Toilette</p>
+    <img src="https://cdn.shopify.com/s/files/1/1180/3624/products/d389e50d1ed40597a32137516521549f.jpeg?v=1571439462" style="width:100%">
+    <p>Eau De Toilette is the lightest.</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
